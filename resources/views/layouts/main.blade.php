@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=970px, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>В контакте</title>
     <link rel="apple-touch-icon" sizes="57x57" href="{{asset('/favicon/apple-icon-57x57.png')}}">
@@ -33,7 +33,7 @@
     </style>
 </head>
 <body class="min-h-screen bg-gray-100 text-sm">
-<header class="bg-white border-b">
+<header class="bg-white border-b sticky top-0 z-10">
     <div class="container mx-auto">
         <div class="flex justify-between items-center">
             <div class="flex items-center h-12">
@@ -207,7 +207,17 @@
             <div class="w-40 mr-2 flex-shrink-0">
                 <ul class="-ml-1">
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24"
@@ -222,7 +232,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -258,7 +278,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24"
@@ -273,7 +303,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24"
@@ -288,7 +328,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -302,7 +352,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -318,7 +378,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -332,7 +402,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="flex px-2 py-1.5 rounded hover:bg-gray-200 items-center">
+                        <a href="#" class="relative flex px-2 py-1.5 rounded hover:bg-gray-200 items-center group">
+                            <div
+                                class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-1000">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="w-4 text-gray-400 opacity-50 hover:opacity-100" viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            </div>
                             <div class="mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-blue-500" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -404,13 +484,277 @@
             </div>
             {{-- Center --}}
             <div class="w-56 mr-4 flex-shrink-0">
-                <div class="bg-white p-4">
-                    Center
+                <div class="bg-white rounded border p-3 pb-1.5 mb-4">
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img class="rounded-sm"
+                             src="https://sun5-4.userapi.com/s/v1/if1/182Oy9OkunvSGx6azpk-9Cm63vhp2SCwTyjmLDHx6sDQVGtzVwokMLbibaHCjrGev7sPwIC4.jpg?size=200x200&quality=96&crop=0,353,1538,1538&ava=1"
+                             alt="">
+                        <div class="absolute top-0 right-0 opacity-0 group-hover:opacity-100">
+                            <button type="button"
+                                    class="flex justify-center items-center w-4 h-4 bg-black text-opacity-50 focus:outline-none hover:text-opacity-100 bg-opacity-50 text-white rounded-tr-sm rounded-bl-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3" fill="none" viewBox="0 0 24 24"
+                                     stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="absolute bottom-0 right-0 left-0 group-hover:opacity-100">
+                            <ul class="bg-black opacity-0 bg-opacity-50 w-full rounded-b-sm transform translate-y-12 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                                <li>
+                                    <a class="px-3 py-0.1 flex items-center text-white text-opacity-75 hover:text-opacity-100"
+                                       href="#">
+                                        <div class="mr-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none"
+                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                                            </svg>
+                                        </div>
+                                        <span class="">
+                                            Обновить фотографию
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="px-3 py-0.1 flex items-center text-white text-opacity-75 hover:text-opacity-100"
+                                       href="#">
+                                        <div class="mr-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none"
+                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                            </svg>
+                                        </div>
+                                        <span class="">
+                                            Изменить миниатюру
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="px-3 py-0.1 flex items-center text-white text-opacity-75 hover:text-opacity-100"
+                                       href="#">
+                                        <div class="mr-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none"
+                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                            </svg>
+                                        </div>
+                                        <span class="">
+                                            Обновить фотографию
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <button class="rounded bg-gray-200 py-1 w-full text-gray-500 hover:text-opacity-75"
+                                type="button">Редактировать
+                        </button>
+                    </div>
+
+                    <ul class="mt-3 -mx-3">
+                        <li>
+                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                                    </svg>
+                                </div>
+                                <span class="">Статистика страницы</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                </div>
+                                <span class="">Воспоминания</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/>
+                                    </svg>
+                                </div>
+                                <span class="">Архив историй</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                                <div class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+                                    </svg>
+                                </div>
+                                <span class="">Денежные переводы</span>
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
+                <div class="bg-white rounded border mb-4">
+                    <div class="flex justify-between">
+                        <a class="pl-3 pt-2 flex-1" href="">Друзья <span class="text-gray-500">52</span></a>
+                        <a class="pr-3 pt-2 text-gray-500 hover:underline" href="">Обновления</a>
+                    </div>
+                    <div class=" grid grid-cols-3 gap-3 p-3">
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-3.userapi.com/s/v1/ig2/bUQ33IS7j3tr7Ncdg2ZsafDeaiOsCqSkEevrQIaphv9tzwQKw-Rs6GM-748qSnKCNykvpfqTg1ogFhmyQipJPXBh.jpg?size=50x50&quality=96&crop=135,1171,981,981&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Евгений</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-4.userapi.com/s/v1/if1/VTn3dMjTWQGNDpz85GJEDBJfWcFTLkwiUNhBOR2iGsblrf2V1K5ZQujKy_8tvof-y7qLsmfm.jpg?size=50x50&quality=96&crop=1,50,667,667&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Елена</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-4.userapi.com/s/v1/ig2/m_2sh-jU9D7PihIN7olTPmpqB_PTosSMOXeKkZr3a91aFrJmvxdkaejZcVIhasvfTMgomz1qrooFUInzXEdR1EKg.jpg?size=50x50&quality=95&crop=740,884,958,958&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Елена</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-3.userapi.com/s/v1/if1/8y9YYTVFvyWsXNj9ojUZg4QQvxLLY6F0vE_T8RESbjYoyKOjVeUd_1Yraw9UwrcKio0tnM6U.jpg?size=50x50&quality=96&crop=895,490,994,994&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Павел</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-4.userapi.com/s/v1/if1/l0JCSgGbiclCfxqvwUwC_bOLxSDaHT9_l_0Y1apGdZH7JLwX213ALIrfVda40fsyEDHtILtL.jpg?size=50x50&quality=96&crop=0,0,719,719&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Юлия</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-3.userapi.com/s/v1/ig1/_KtL-fooGUUl5pS70CvKRmrWEcSsKw8LKKaLpd5WZuYhUVcm4izAMlEyjfy4zGeIP93kn3J0.jpg?size=50x50&quality=96&crop=1,361,1438,1438&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Мария</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-200 h-px"></div>
+                    <a href class="p-3 flex flex-1">Друзья онлайн
+                        <div class="ml-1 text-gray-500">68</div>
+                    </a>
+                    <div class="grid grid-cols-3 gap-3 p-3">
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-3.userapi.com/s/v1/ig2/bUQ33IS7j3tr7Ncdg2ZsafDeaiOsCqSkEevrQIaphv9tzwQKw-Rs6GM-748qSnKCNykvpfqTg1ogFhmyQipJPXBh.jpg?size=50x50&quality=96&crop=135,1171,981,981&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Евгений</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a href="#" class="block px-1 mb-1">
+                                <img class="rounded-full"
+                                     src="https://sun5-4.userapi.com/s/v1/if1/VTn3dMjTWQGNDpz85GJEDBJfWcFTLkwiUNhBOR2iGsblrf2V1K5ZQujKy_8tvof-y7qLsmfm.jpg?size=50x50&quality=96&crop=1,50,667,667&ava=1"
+                                     alt="">
+                            </a>
+                            <div class="text-center truncate">
+                                <a class="text-blue-900 hover:underline" href="">Елена</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded border mb-4">
+                    <a href="#" class=" p-3 flex flex-1">
+                        Подписки <div class="pl-2 text-gray-500">26</div>
+                    </a>
+                    <ul class="px-3 pt-1 pb-3 space-y-3">
+                        <li class="flex">
+                            <a href="#" class="block px-1 flex-shrink-0">
+                                <img class="w-10 rounded-full" src="https://sun5-3.userapi.com/s/v1/if1/2VU26FcSyoZbXTWEH7HPAnxja8Hqcx0UC5Ah61S2DCqfI93K8I3_p-no82Zo1Uuf2oUg8CBi.jpg?size=50x50&quality=96&crop=56,82,889,889&ava=1" alt="">
+                            </a>
+                            <div class="pl-2 flex-1 mb-0.5">
+                                <a href="#" class="block text-blue-900 hover:underline ">
+                                    Улётный Юмор
+                                </a>
+                                <div class="text-[.85rem] text-gray-500 leading-5">
+                                    Лучшее из сети
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="block px-1 flex-shrink-0">
+                                <img class="w-10 rounded-full" src="https://sun5-3.userapi.com/s/v1/if1/SxOmL9DzKAxyfJMMB6EvIkWlrJ2EhsfMnLauvHVS-GQCqM65dYIkiAicgc26vzUaMexZ_ch_.jpg?size=50x50&quality=96&crop=21,0,510,510&ava=1" alt="">
+                            </a>
+                            <div class="pl-2 flex-1 mb-0.5">
+                                <a href="#" class="block text-blue-900 hover:underline ">
+                                    Men's Classical
+                                </a>
+                                <div class="text-[.85rem] text-gray-500 leading-5">
+                                    Мужская эстетика, стиль и саморазвитие.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="block px-1 flex-shrink-0">
+                                <img class="w-10 rounded-full" src="https://sun5-3.userapi.com/s/v1/if1/HDrb0Sk2dGrlWVnGv-Oc4T5xLd3a4J_Ke-Evi2cGxOfZJ1qqj8YvfoHvu3G0CzywDCEI9jJx.jpg?size=50x50&quality=96&crop=0,44,279,279&ava=1" alt="">
+                            </a>
+                            <div class="pl-2 flex-1 mb-0.5">
+                                <a href="#" class="block text-blue-900 hover:underline ">
+                                    Фитнес для мозга | Facts
+                                </a>
+                                <div class="text-[.85rem] text-gray-500 leading-5">
+                                    Самое интересное, что происходит в мире!
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
             {{-- Right --}}
             <div class="flex-1">
-                <div class="bg-white p-4">
+                <div class="bg-white p-4 ">
                     Right
                 </div>
             </div>
