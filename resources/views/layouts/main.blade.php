@@ -164,7 +164,7 @@
                     </div>
                     <div x-cloak x-show="open" x-on:click.away="open = false" class="absolute top-full right-0">
                         <div class="bg-white border w-52 py-1 rounded-b shadow-sm">
-                            <a href="" class="flex items-center px-4 py-1 hover:bg-gray-100">
+                            <a href="#" class="flex items-center px-4 py-1 hover:bg-gray-100">
                                 <div class="mr-2">
                                     <img class="w-8 h-8 rounded-full"
                                          src="https://sun5-4.userapi.com/s/v1/if1/T6_-SgFnozZbOS8FaTwYffnqBU5jdQAffhgAw9Xj1B8UyMppxpre2wkDoT4DEezbyB-Ew9sS.jpg?size=50x50&quality=96&crop=0,353,1538,1538&ava=1"
@@ -178,16 +178,16 @@
                                 </div>
                             </a>
                             <div class="bg-gray-200 h-px mx-4 my-1"></div>
-                            <a href=""
+                            <a href="#"
                                class="text-blue-900 text-xs py-2 flex items-center px-4 py-1 hover:bg-gray-100">
                                 Настройки
                             </a>
-                            <a href=""
+                            <a href="#"
                                class="text-blue-900 text-xs py-2 flex items-center px-4 py-1 hover:bg-gray-100">
                                 Помощь
                             </a>
                             <div class="bg-gray-200 h-px mx-4 my-1"></div>
-                            <a href=""
+                            <a href="#"
                                class="text-blue-900 text-xs py-2 flex items-center px-4 py-1 hover:bg-gray-100">
                                 Выйти
                             </a>
@@ -430,17 +430,17 @@
 
                 <ul class="flex flex-wrap">
                     <li class="px-2 mb-1">
-                        <a href="" class="block text-gray-500 text-xs hover:underline">
+                        <a href="#" class="block text-gray-500 text-xs hover:underline">
                             Блог
                         </a>
                     </li>
                     <li class="px-2 mb-1">
-                        <a href="" class="block text-gray-500 text-xs hover:underline">
+                        <a href="#" class="block text-gray-500 text-xs hover:underline">
                             Разработчикам
                         </a>
                     </li>
                     <li class="px-2 mb-1">
-                        <a href="" class="block text-gray-500 text-xs hover:underline">
+                        <a href="#" class="block text-gray-500 text-xs hover:underline">
                             Реклама
                         </a>
                     </li>
@@ -556,7 +556,7 @@
 
                     <ul class="mt-3 -mx-3">
                         <li>
-                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                            <a href="#" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
                                          class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
@@ -569,7 +569,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                            <a href="#" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
                                          class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
@@ -582,7 +582,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                            <a href="#" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
                                          class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
@@ -595,7 +595,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
+                            <a href="#" class="flex items-center px-3 py-1 text-gray-500 hover:bg-gray-100 group">
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
                                          class="w-6 py-1.5 mr-2 text-gray-400 group-hover:text-gray-500" fill="none"
@@ -612,8 +612,8 @@
                 </div>
                 <div class="bg-white rounded border mb-4">
                     <div class="flex justify-between">
-                        <a class="pl-3 pt-2 flex-1" href="">Друзья <span class="text-gray-500">52</span></a>
-                        <a class="pr-3 pt-2 text-gray-500 hover:underline" href="">Обновления</a>
+                        <a class="pl-3 pt-2 flex-1" href="#">Друзья <span class="text-gray-500">52</span></a>
+                        <a class="pr-3 pt-2 text-gray-500 hover:underline" href="#">Обновления</a>
                     </div>
                     <div class=" grid grid-cols-3 gap-3 p-3">
                         <div class="">
@@ -623,7 +623,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Евгений</a>
+                                <a class="text-blue-900 hover:underline" href="#">Евгений</a>
                             </div>
                         </div>
                         <div class="">
@@ -633,7 +633,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Елена</a>
+                                <a class="text-blue-900 hover:underline" href="#">Елена</a>
                             </div>
                         </div>
                         <div class="">
@@ -643,7 +643,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Елена</a>
+                                <a class="text-blue-900 hover:underline" href="#">Елена</a>
                             </div>
                         </div>
                         <div class="">
@@ -653,7 +653,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Павел</a>
+                                <a class="text-blue-900 hover:underline" href="#">Павел</a>
                             </div>
                         </div>
                         <div class="">
@@ -663,7 +663,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Юлия</a>
+                                <a class="text-blue-900 hover:underline" href="#">Юлия</a>
                             </div>
                         </div>
                         <div class="">
@@ -673,7 +673,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Мария</a>
+                                <a class="text-blue-900 hover:underline" href="#">Мария</a>
                             </div>
                         </div>
                     </div>
@@ -689,7 +689,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Евгений</a>
+                                <a class="text-blue-900 hover:underline" href="#">Евгений</a>
                             </div>
                         </div>
                         <div class="">
@@ -699,7 +699,7 @@
                                      alt="img">
                             </a>
                             <div class="text-center truncate">
-                                <a class="text-blue-900 hover:underline" href="">Елена</a>
+                                <a class="text-blue-900 hover:underline" href="#">Елена</a>
                             </div>
                         </div>
                     </div>
@@ -1000,16 +1000,244 @@
                                 </div>
                             </a>
                         </li>
-
                     </ul>
                 </div>
-
             </div>
             {{-- Right --}}
             <div class="flex-1">
-                <div class="bg-white p-4 ">
-                    Right
+                {{--Profile--}}
+                <div x-data="{open:false}" class="bg-white rounded border mb-4">
+                    <div class="px-4 py-2">
+                        <div class="flex items-center justify-between">
+                            <div class="font-medium text-xl">
+                                Евгений Чернов
+                            </div>
+                            <div class="text-gray-400">
+                                online
+                            </div>
+                        </div>
+                        <div class="">
+                            Самый лучший день - сегодня!
+                        </div>
+                        <div class="">
+                            <div class="bg-gray-200 h-px"></div>
+                        </div>
+                        <div class="pt-4 space-y-2">
+                            <div class="grid grid-cols-3 gap-2">
+                                <div class="text-gray-500">
+                                    День рождения
+                                </div>
+                                <div class="col-span-2">
+                                    <a href="#" class="text-blue-900 hover:underline">8 ноября</a>
+                                    <a href="#" class="text-blue-900 hover:underline">1992 г.</a>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-3 gap-2">
+                                <div class="text-gray-500">
+                                    Семейное положение:
+                                </div>
+                                <div class="col-span-2">
+                                    Не женат
+                                </div>
+                            </div>
+                            <button
+                                x-on:click="open = !open"
+                                class="focus:outline-none hover:bg-gray-100 w-full py-2 text-blue-900 rounded grid grid-cols-3 gap-2 text-left">
+                                <div></div>
+                                <div class="col-span-2" x-show="open">Скрыть подробную информацию</div>
+                                <div class="col-span-2" x-show="!open">Показать подробную информацию</div>
+                            </button>
+
+                            <div x-show="open" x-cloak class="group">
+                                <div class="relative flex items-center">
+                                    <div class="pr-2">Контактная информация</div>
+                                    <div class="flex-1">
+                                        <div class="h-px bg-gray-200"></div>
+                                    </div>
+                                    <div
+                                        class="absolute top-0 right-0 bg-white pl-2 opacity-0 group-hover:opacity-100 transition duration-75">
+                                        <a href="#" class="text-gray-400 hover:underline">Редактировать</a>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2">
+                                    <div class="text-gray-500">Инстаграм</div>
+                                    <div class="col-span-2 text-blue-900">
+                                        <a href="#" class="hover:underline">H2O </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div x-show="open" x-cloak class="group pt-2">
+                                <div class="relative flex items-center">
+                                    <div class="pr-2">Образование</div>
+                                    <div class="flex-1">
+                                        <div class="h-px bg-gray-200"></div>
+                                    </div>
+                                    <div
+                                        class="absolute top-0 right-0 bg-white pl-2 opacity-0 group-hover:opacity-100 transition duration-75">
+                                        <a href="#" class="text-gray-400 hover:underline">Редактировать</a>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2">
+                                    <div class="text-gray-500"></div>
+                                    <div class="col-span-2 text-gray-500">
+                                        Информация отсутствует
+                                    </div>
+                                </div>
+                            </div>
+                            <div x-show="open" x-cloak class="group pt-2">
+                                <div class="relative flex items-center">
+                                    <div class="pr-2">Личная информация</div>
+                                    <div class="flex-1">
+                                        <div class="h-px bg-gray-200"></div>
+                                    </div>
+                                    <div
+                                        class="absolute top-0 right-0 bg-white pl-2 opacity-0 group-hover:opacity-100 transition duration-75">
+                                        <a href="#" class="text-gray-400 hover:underline">Редактировать</a>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2">
+                                    <div class="text-gray-500">Интересы</div>
+                                    <div class="col-span-2 text-gray-500">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="text-blue-500 hover:underline">Книги,</a>
+                                                <a href="#" class="text-blue-500 hover:underline">Спорт,</a>
+                                                <a href="#" class="text-blue-500 hover:underline">Музыка,</a>
+                                                <a href="#" class="text-blue-500 hover:underline">Путешествия,</a>
+                                                <a href="#" class="text-blue-500 hover:underline">Природа,</a>
+                                                <a href="#" class="text-blue-500 hover:underline">Технологии.</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2">
+                                    <div class="text-gray-500">Любимые цитаты</div>
+                                    <div class="col-span-2 text-[.85rem]">
+                                        Обучение программированию не может научить быть экспертом, также как и изучение
+                                        кистей и красок не может превратить кого-либо в художника.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-t flex justify-center items-center text-center">
+                                <a href="" class="block p-3 group">
+                                    <div class="text-blue-900 text-xl leading-4">53</div>
+                                    <div class="text-gray-500 text-opacity-75 group-hover:text-blue-900">друга</div>
+                                </a>
+                                <a href="" class="block p-3 group">
+                                    <div class="text-blue-900 text-xl leading-4">104</div>
+                                    <div class="text-gray-500 text-opacity-75 group-hover:text-blue-900">подписчика
+                                    </div>
+                                </a>
+                                <a href="" class="block p-3 group">
+                                    <div class="text-blue-900 text-xl leading-4">1170</div>
+                                    <div class="text-gray-500 text-opacity-75 group-hover:text-blue-900">фотографий
+                                    </div>
+                                </a>
+                                <a href="" class="block p-3 group">
+                                    <div class="text-blue-900 text-xl leading-4">4</div>
+                                    <div class="text-gray-500 text-opacity-75 group-hover:text-blue-900">отметки</div>
+                                </a>
+                                <a href="" class="block p-3 group">
+                                    <div class="text-blue-900 text-xl leading-4">3</div>
+                                    <div class="text-gray-500 text-opacity-75 group-hover:text-blue-900">статьи</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                {{--Photo--}}
+                <div class="bg-white rounded border mb-4">
+                    <div class="flex justify-between items-center">
+                        <a href="" class="flex-1 pl-4 pt-2 pb-1">
+                            Мои фотографии <span class=" text-gray-500">1170</span>
+                        </a>
+                        <a href="" class="pr-4 pt-2 text-gray-500 hover:underline">показать на карте</a>
+                    </div>
+                    <div class="px-4 pt-2 pb-4">
+                        <div class="grid grid-cols-4 gap-2">
+                            <div class="relative group pt-[100%] cursor-pointer">
+                                <div class="absolute inset-0">
+                                    <img class="object-cover h-full w-full"
+                                        src="https://sun5-3.userapi.com/s/v1/if2/RJGPPoEbu7wElsuHR0triRFiVXTYzGV7LysU_tYZDCh8DUMLMa25HuksEe_rGIcad2znuiMpGGvZbilKYP-4ky9e.jpg?size=604x402&quality=96&type=album"
+                                        alt="">
+                                </div>
+                                <div class="absolute top-0 right-0 opacity-0 group-hover:opacity-100">
+                                    <button type="button"
+                                            class="flex justify-center items-center w-4 h-4 bg-black text-opacity-50 focus:outline-none hover:text-opacity-100 bg-opacity-50 text-white rounded-tr-sm rounded-bl-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3" fill="none"
+                                             viewBox="0 0 24 24"
+                                             stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                  d="M6 18L18 6M6 6l12 12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="relative group pt-[100%] cursor-pointer">
+                                <div class="absolute inset-0">
+                                    <img class="object-cover h-full w-full"
+                                         src="https://sun5-4.userapi.com/s/v1/if1/LumoGrb4dgLXyqZ2A2g4K16xCBtlfcWErmPBhqMg60jPTVI3t9EnGOJ80Nhw5fTOLh7NyrWR.jpg?size=604x531&quality=96&type=album"
+                                         alt="">
+                                </div>
+                                <div class="absolute top-0 right-0 opacity-0 group-hover:opacity-100">
+                                    <button type="button"
+                                            class="flex justify-center items-center w-4 h-4 bg-black text-opacity-50 focus:outline-none hover:text-opacity-100 bg-opacity-50 text-white rounded-tr-sm rounded-bl-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3" fill="none"
+                                             viewBox="0 0 24 24"
+                                             stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                  d="M6 18L18 6M6 6l12 12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="relative group pt-[100%] cursor-pointer">
+                                <div class="absolute inset-0">
+                                    <img class="object-cover h-full w-full"
+                                         src="https://sun5-3.userapi.com/s/v1/if1/iNP74aX29wnYjfW4bHKtmu4WeNOIRZduvrLi6_D2pGM7Eyu0a_NnufoGfME1He3-y9ZtxBl2.jpg?size=130x114&quality=96&type=album"
+                                         alt="">
+                                </div>
+                                <div class="absolute top-0 right-0 opacity-0 group-hover:opacity-100">
+                                    <button type="button"
+                                            class="flex justify-center items-center w-4 h-4 bg-black text-opacity-50 focus:outline-none hover:text-opacity-100 bg-opacity-50 text-white rounded-tr-sm rounded-bl-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3" fill="none"
+                                             viewBox="0 0 24 24"
+                                             stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                  d="M6 18L18 6M6 6l12 12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>                            <div class="relative group pt-[100%] cursor-pointer">
+                                <div class="absolute inset-0">
+                                    <img class="object-cover h-full w-full"
+                                         src="https://sun5-4.userapi.com/s/v1/if2/sT-FiZH1hoGZwH4axEMufkcLroSlneWb5lumNhYzIeQoxcwThIhlFdz34NJdEHPGG2gW3KCPzIkQ93j8b5Vj4gxZ.jpg?size=500x500&quality=96&type=album"
+                                         alt="">
+                                </div>
+                                <div class="absolute top-0 right-0 opacity-0 group-hover:opacity-100">
+                                    <button type="button"
+                                            class="flex justify-center items-center w-4 h-4 bg-black text-opacity-50 focus:outline-none hover:text-opacity-100 bg-opacity-50 text-white rounded-tr-sm rounded-bl-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3" fill="none"
+                                             viewBox="0 0 24 24"
+                                             stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                  d="M6 18L18 6M6 6l12 12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                {{--Posts--}}
+                <div class="bg-white rounded border mb-4">
+                    <div class="p-3">
+                        Posts
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
